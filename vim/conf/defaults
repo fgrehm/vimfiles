@@ -1,0 +1,55 @@
+" vim: filetype=vim
+filetype plugin indent on
+set ignorecase smartcase gdefault showmatch hlsearch incsearch
+let mapleader = ","
+
+" enable syntax highligh
+syntax on
+
+" set the buffer to become hidden instead of preventing the user from changing to another buffer
+set hidden
+
+" consistent indenting options
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab
+
+" set proper encoding for files
+set encoding=utf8
+set fileencoding=utf8
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" automatically reload the files if they were modified outside vim
+set autoread
+
+" enable per-directory .vimrc files
+set exrc
+
+" disable unsafe commands in local .vimrc files
+set secure
+
+" disable default mappings for NERDCommenter
+let g:NERDCreateDefaultMappings = 0
+
+" improve the autocomplete menu
+set completeopt=longest,menuone,preview
+
+" load gems ctags
+set tags+=gems.tags
+
+" ignores for CommandT / CtrlP
+set wildignore+=*.o,*.obj,.git,tmp/**,build/**,coverage/**
+
+" TODO: Document options below
+set showfulltag
+set autoindent
+set ruler
+set number
+set nowrap
+set cursorline
+set laststatus=2
+set showcmd
+set showmode
+set noerrorbells
+set novisualbell
+set shiftround

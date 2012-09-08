@@ -1,0 +1,42 @@
+" vim: filetype=vim
+
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+Bundle 'altercation/vim-colors-solarized'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-repeat'
+Bundle 'rstacruz/sparkup'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'L9'
+Bundle 'ervandew/supertab'
+
+Bundle 'tsaleh/vim-align'
+Bundle 'briandoll/change-inside-surroundings.vim'
+Bundle 'scrooloose/nerdcommenter'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'bufexplorer.zip'
+
+Bundle 'kien/ctrlp.vim'
+Bundle 'jeetsukumaran/vim-filesearch'
+Bundle 'SearchComplete'
+
+Bundle 'matchit.zip'
+Bundle 'ruby-matchit'
+
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-markdown'
+Bundle 'bbommarito/vim-slim'
+Bundle 'rodjek/vim-puppet'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'VimClojure'
+Bundle 'lunaru/vim-less'
+Bundle 'pangloss/vim-javascript'
+Bundle 'briancollins/vim-jst'

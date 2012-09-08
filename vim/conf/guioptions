@@ -1,0 +1,34 @@
+" vim: filetype=vim
+
+set bg=dark
+colorscheme desert
+
+set number tabstop=2 sw=2 bs=2 mouse=a
+set ruler title cursorline
+
+" set the space from the current line when scrolling
+set scrolloff=3
+
+" set the colors when using terminal commands
+set noguipty
+
+" command-line completion shows a list of matches
+set wmnu
+
+"load the status line
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%04l,%04v]\ [LEN=%L]
+" source ~/.vim/conf/statusline
+
+set guifont=Monospace\ 11.5
+
+"Set a better font depending on system
+if (has("gui_running"))
+  " Remove all the UI cruft
+  set go-=T
+  set go-=l
+  set go-=L
+  set go-=r
+  set go-=R
+
+  highlight SpellBad term=underline gui=undercurl guisp=Orange
+endif

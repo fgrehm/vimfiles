@@ -1,0 +1,17 @@
+" vim: filetype=vim
+
+" Delete trailing white space when saving
+func! DeleteTrailingWS()
+  exe "normal mz"
+  %s/\s\+$//ge
+  exe "normal `z"
+endfunc
+au BufWrite * :call DeleteTrailingWS()
+
+" TODO: Review this
+au BufRead,BufNew *.coffee set ft=coffee
+au BufRead,BufNew *.html.erb set ft=eruby.html
+au BufRead,BufNew Gemfile set ft=ruby
+au BufRead,BufNew Guardfile set ft=ruby
+au BufRead,BufNew Procfile set ft=ruby
+au BufRead,BufNew *.ru set ft=ruby
