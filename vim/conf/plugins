@@ -7,39 +7,41 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 
 Bundle 'Lokaltog/vim-powerline'
+
 Bundle 'scrooloose/syntastic'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
-Bundle 'rstacruz/sparkup'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'L9'
-Bundle 'ervandew/supertab'
-
-Bundle 'tsaleh/vim-align'
-Bundle 'briandoll/change-inside-surroundings.vim'
-Bundle 'scrooloose/nerdcommenter'
-
+Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'bufexplorer.zip'
 
-Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+
+Bundle 'tpope/vim-repeat'
+
+Bundle 'tsaleh/vim-align'
+
+Bundle 'tpope/vim-endwise'
+
+Bundle 'tpope/vim-surround'
+Bundle 'briandoll/change-inside-surroundings.vim'
+
+Bundle 'ervandew/supertab'
+
+Bundle 'scrooloose/nerdcommenter'
+
 Bundle 'jeetsukumaran/vim-filesearch'
-Bundle 'SearchComplete'
 
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'
 
+Bundle 'tpope/vim-rails'
+
+Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-markdown'
-Bundle 'bbommarito/vim-slim'
-Bundle 'rodjek/vim-puppet'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'VimClojure'
 Bundle 'lunaru/vim-less'
+Bundle 'bbommarito/vim-slim'
+Bundle 'tpope/vim-markdown'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'pangloss/vim-javascript'
 Bundle 'briancollins/vim-jst'
