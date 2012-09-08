@@ -21,4 +21,4 @@ else
   echo "Skipping Vundle clone"
 fi
 
-echo -e "\nOpen up vim and run :BundleInstall"
+vim +BundleInstall +qall
