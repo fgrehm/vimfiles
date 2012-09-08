@@ -16,8 +16,7 @@ set noguipty
 set wmnu
 
 "load the status line
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%04l,%04v]\ [LEN=%L]
-" source ~/.vim/conf/statusline
+source ~/.vim/conf/statusline
 
 set guifont=Monospace\ 11.5
 
