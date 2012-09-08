@@ -1,6 +1,5 @@
 " vim: filetype=vim
 
-map <C-t> <Esc>:CommandT<CR>
 map <C-s> <Esc>:w<CR>
 map <C-S> <Esc>:w<CR>
 
