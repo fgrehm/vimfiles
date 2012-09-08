@@ -1,8 +1,9 @@
 " vim: filetype=vim
 
+" maps Ctrl+S to save
+" Requires (stty stop '') in your bashrc in order to work from the terminal
 map <C-s> <Esc>:w<CR>
 map <C-S> <Esc>:w<CR>
-
 map! <C-s> <Esc>:w<CR>a
 map! <C-S> <Esc>:w<CR>a
 
