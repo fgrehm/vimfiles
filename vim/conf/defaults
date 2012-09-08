@@ -31,6 +31,9 @@ set secure
 " disable default mappings for NERDCommenter
 let g:NERDCreateDefaultMappings = 0
 
+" increase CtrlP matches to 15
+let g:ctrlp_max_height = 15
+
 " improve the autocomplete menu
 set completeopt=longest,menuone,preview
 
