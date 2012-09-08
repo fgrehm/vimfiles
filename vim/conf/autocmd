@@ -8,10 +8,14 @@ func! DeleteTrailingWS()
 endfunc
 au BufWrite * :call DeleteTrailingWS()
 
-" TODO: Review this
-au BufRead,BufNew *.coffee set ft=coffee
-au BufRead,BufNew *.html.erb set ft=eruby.html
-au BufRead,BufNew Gemfile set ft=ruby
-au BufRead,BufNew Guardfile set ft=ruby
-au BufRead,BufNew Procfile set ft=ruby
-au BufRead,BufNew *.ru set ft=ruby
+augroup vimrcEx
+  " Clear all autocmds in the group
+  autocmd!
+
+  autocmd! BufRead,BufNewFile *.coffee setfiletype coffee
+  autocmd! BufRead,BufNewFile *.html.erb setfiletype eruby.html
+  autocmd! BufRead,BufNewFile Gemfile setfiletype ruby
+  autocmd! BufRead,BufNewFile Guardfile setfiletype ruby
+  autocmd! BufRead,BufNewFile Procfile setfiletype ruby
+  autocmd! BufRead,BufNewFile *.ru setfiletype ruby
+augroup END
