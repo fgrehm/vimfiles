@@ -19,6 +19,7 @@ set wmnu
 source ~/.vim/conf/statusline
 
 set guifont=Monospace\ 11.5
+let g:Powerline_symbols = 'fancy'
 
 "Set a better font depending on system
 if (has("gui_running"))
