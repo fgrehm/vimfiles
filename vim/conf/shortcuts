@@ -15,3 +15,5 @@ noremap <Space><Bar> <C-w><Bar>
 noremap <Space>o <C-w>o
 
 map <leader>C <plug>NERDCommenterComment
+
+nmap <F8> :TagbarToggle<CR>

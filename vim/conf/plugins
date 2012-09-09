@@ -33,6 +33,8 @@ Bundle 'jeetsukumaran/vim-filesearch'
 
 Bundle 'Lokaltog/vim-easymotion'
 
+Bundle 'majutsushi/tagbar'
+
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'
 
