@@ -12,6 +12,7 @@ augroup vimrcEx
   " Clear all autocmds in the group
   autocmd!
 
+  autocmd! BufRead,BufNewFile *.pp setfiletype puppet
   autocmd! BufRead,BufNewFile *.coffee setfiletype coffee
   autocmd! BufRead,BufNewFile *.html.erb setfiletype eruby.html
   autocmd! BufRead,BufNewFile Gemfile setfiletype ruby
