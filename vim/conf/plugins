@@ -36,6 +36,8 @@ Bundle 'ruby-matchit'
 
 Bundle 'tpope/vim-rails'
 
+Bundle 'ecomba/vim-ruby-refactoring'
+
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-haml'
