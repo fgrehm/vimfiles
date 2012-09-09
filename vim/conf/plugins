@@ -31,6 +31,8 @@ Bundle 'scrooloose/nerdcommenter'
 
 Bundle 'jeetsukumaran/vim-filesearch'
 
+Bundle 'Lokaltog/vim-easymotion'
+
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'
 
