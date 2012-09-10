@@ -3,7 +3,7 @@ filetype plugin indent on
 set ignorecase smartcase gdefault showmatch hlsearch incsearch
 let mapleader = ","
 
-" enable syntax highligh
+" enable syntax highlight
 syntax on
 
 " set the buffer to become hidden instead of preventing the user from changing to another buffer

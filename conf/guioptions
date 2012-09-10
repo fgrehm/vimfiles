@@ -1,7 +1,14 @@
 " vim: filetype=vim
 
 set bg=dark
-colorscheme desert
+
+" Show a brighter cursorline
+let g:jellybeans_overrides = {
+\    'CursorLine': { 'guifg': '',   'guibg': '444444',
+\                    'ctermfg': '', 'ctermbg': '000000',
+\                    'attr': '' },
+\}
+colorscheme jellybeans
 
 set number tabstop=2 sw=2 bs=2 mouse=a
 set ruler title cursorline

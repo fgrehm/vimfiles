@@ -1,6 +1,6 @@
 # vimfiles
 
-My vim configuration, tested on Ubuntu.
+My vim configuration, tested on Ubuntu 12.04
 
 
 ## Installation
@@ -8,14 +8,15 @@ My vim configuration, tested on Ubuntu.
 Install font from https://github.com/scotu/ubuntu-mono-powerline for the
 [powerline](https://github.com/Lokaltog/vim-powerline) plugin. Then run:
 
+    $ sudo apt-get install vim vim-gnome
     $ git clone https://github.com/fgrehm/vimfiles.git
     $ cd vimfiles && ./setup.sh
 
 
 ## Available plugins (managed through [Vundle](https://github.com/gmarik/vundle))
 
-  * [altercation/vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
-  Solarized Colorscheme for Vim
+  * [nanotech/jellybeans.vim](https://github.com/nanotech/jellybeans.vim)
+  Dark color scheme
 
   * [Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)
   Awesome statusline utility
