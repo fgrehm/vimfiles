@@ -14,7 +14,6 @@ echo
 
 if ! [[ -d `pwd`/bundle/vundle/.git  ]]; then
   echo "Cloning Vundle..."
-  mkdir -p `pwd`/bundle
   git clone https://github.com/gmarik/vundle.git `pwd`/bundle/vundle
 else
   echo "Skipping Vundle clone"
