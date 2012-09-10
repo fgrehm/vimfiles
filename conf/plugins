@@ -8,6 +8,8 @@ Bundle 'nanotech/jellybeans.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 
+Bundle 'nathanaelkane/vim-indent-guides'
+
 Bundle 'scrooloose/syntastic'
 
 Bundle 'kien/ctrlp.vim'

@@ -18,6 +18,9 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
   * [nanotech/jellybeans.vim](https://github.com/nanotech/jellybeans.vim)
   Dark color scheme
 
+  * [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
+  Displays indent levels in code
+
   * [Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)
   Awesome statusline utility
 
