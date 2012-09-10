@@ -1,22 +1,21 @@
 #!/usr/bin/env bash
 
-symlinks=( vimrc vim )
-
 echo "Creating symlinks..."
-for link in ${symlinks[@]}; do
-  target="`pwd`/${link}"
-  link_name="${HOME}/.${link}"
-  if ! [[ -L $link_name ]]; then
-    echo "  LINK - ${link_name}"
-    ln -s $target $link_name
-  else
-    echo "  SKIP - ${link_name}"
-  fi
-done
 
-if ! [[ -d `pwd`/vim/bundle/vundle/.git  ]]; then
-  echo "Cloning Vundle"
-  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+if ! [[ -L $HOME/.vimrc ]]; then
+  ln -s `pwd`/vimrc $HOME/.vimrc
+fi
+
+if ! [[ -L $HOME/.vim ]]; then
+  ln -s `pwd` $HOME/.vim
+fi
+
+echo
+
+if ! [[ -d `pwd`/bundle/vundle/.git  ]]; then
+  echo "Cloning Vundle..."
+  mkdir -p `pwd`/bundle
+  git clone https://github.com/gmarik/vundle.git `pwd`/bundle/vundle
 else
   echo "Skipping Vundle clone"
 fi
