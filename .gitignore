@@ -1,1 +1,4 @@
-bundle/*
+/bundle/*
+/swap
+/undo
+viminfo
