@@ -34,6 +34,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'jeetsukumaran/vim-filesearch'
 
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 
 Bundle 'majutsushi/tagbar'
 
