@@ -128,3 +128,32 @@ Or as a gem:
 
 syntastic also provides support for [puppet-lint](https://github.com/rodjek/puppet-lint)
 if installed.
+
+
+## Other features
+
+* Deletes trailing spaces by default when saving files
+* Fixed swap / backup / undo dir to keep Guards sane
+
+
+## Key mappings
+
+Please note that the leader key is currently mapped to `,`
+
+### Plugins
+
+* `<C-p>` fire up CtrlP plugin finder
+* `<leader>C` toggle comments
+
+    # TODO: Add others that I usually forget...
+
+### Custom
+
+* `<C-s>` save current buffer on normal or insert mode
+
+* `<F8>` toggle Tagbar
+
+* `<Space><Space>` to maximize buffer
+* `<Space>=` to restore buffer
+
+    # TODO: Add others that I usually forget...
