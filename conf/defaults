@@ -1,7 +1,9 @@
 " vim: filetype=vim
 filetype plugin indent on
-set ignorecase smartcase gdefault showmatch hlsearch incsearch
 let mapleader = ","
+
+" search options
+set ignorecase smartcase gdefault showmatch hlsearch incsearch
 
 " enable syntax highlight
 syntax on
@@ -35,7 +37,7 @@ let g:NERDCreateDefaultMappings = 0
 let g:ctrlp_max_height = 15
 
 " improve the autocomplete menu
-set completeopt=longest,menuone,preview
+set completeopt=menuone,preview
 
 " load gems ctags
 set tags+=gems.tags
