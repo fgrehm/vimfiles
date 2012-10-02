@@ -74,6 +74,9 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
   * [ecomba/vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring)
   Refactoring tool for Ruby
 
+  * [ap/vim-css-color](https://github.com/ap/vim-css-color)
+  Highlight colors on css files
+
   * [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
   Displays tags in a window (requires ctags installed)
 
