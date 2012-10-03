@@ -37,5 +37,7 @@ if (has("gui_running"))
   set go-=r
   set go-=R
 
+  set clipboard=unnamedplus
+
   highlight SpellBad term=underline gui=undercurl guisp=Orange
 endif
