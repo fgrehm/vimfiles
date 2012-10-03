@@ -74,6 +74,9 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
   * [ecomba/vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring)
   Refactoring tool for Ruby
 
+  * [ap/vim-css-color](https://github.com/ap/vim-css-color)
+  Highlight colors on css files
+
   * [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
   Displays tags in a window (requires ctags installed)
 
@@ -128,3 +131,28 @@ Or as a gem:
 
 syntastic also provides support for [puppet-lint](https://github.com/rodjek/puppet-lint)
 if installed.
+
+
+## Other features
+
+* Deletes trailing spaces by default when saving files
+* Fixed swap / backup / undo dir to keep Guards sane
+
+
+## Key mappings
+
+Please note that the leader key is currently mapped to `,`
+
+### Plugins
+
+* `<C-p>` fire up CtrlP plugin finder
+* `<leader>C` toggle comments
+
+### Custom
+
+* `<C-s>` save current buffer on normal or insert mode
+
+* `<F8>` toggle Tagbar
+
+* `<Space><Space>` to maximize buffer
+* `<Space>=` to restore buffer

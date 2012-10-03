@@ -45,6 +45,8 @@ Bundle 'tpope/vim-rails'
 
 Bundle 'ecomba/vim-ruby-refactoring'
 
+Bundle 'ap/vim-css-color'
+
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-haml'
