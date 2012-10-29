@@ -40,4 +40,6 @@ if (has("gui_running"))
   set clipboard=unnamedplus
 
   highlight SpellBad term=underline gui=undercurl guisp=Orange
+else
+  set t_Co=256
 endif
