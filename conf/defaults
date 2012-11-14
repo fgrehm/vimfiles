@@ -2,6 +2,12 @@
 filetype plugin indent on
 let mapleader = ","
 
+" remap hjkl to jklç
+noremap j h
+noremap k j
+noremap l k
+noremap ç l
+
 " search options
 set ignorecase smartcase gdefault showmatch hlsearch incsearch
 
