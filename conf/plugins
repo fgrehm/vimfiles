@@ -8,10 +8,6 @@ Bundle 'nanotech/jellybeans.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 
-Bundle 'nathanaelkane/vim-indent-guides'
-
-Bundle 'scrooloose/syntastic'
-
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'bufexplorer.zip'
@@ -29,14 +25,8 @@ Bundle 'briandoll/change-inside-surroundings.vim'
 
 Bundle 'ervandew/supertab'
 
-Bundle 'scrooloose/nerdcommenter'
-
-Bundle 'jeetsukumaran/vim-filesearch'
-
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-
-Bundle 'majutsushi/tagbar'
 
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'

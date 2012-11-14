@@ -51,11 +51,6 @@ set tags+=gems.tags
 " ignores for CtrlP
 set wildignore+=*.o,*.obj,.git,*/tmp/**,*/build/**,*/coverage/**,.jhw-cache,*/.yardoc/**
 
-" indent guides configs
-let g:indent_guides_enable_on_vim_startup=0 "enable on startup
-let g:indent_guides_start_level=1
-let g:indent_guides_guide_size=1
-
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkred ctermbg=lightgrey
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgreen ctermbg=white
 

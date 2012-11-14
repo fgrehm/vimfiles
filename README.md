@@ -18,14 +18,8 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
   * [nanotech/jellybeans.vim](https://github.com/nanotech/jellybeans.vim)
   Dark color scheme
 
-  * [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
-  Displays indent levels in code
-
   * [Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)
   Awesome statusline utility
-
-  * [scrooloose/syntastic](https://github.com/scrooloose/syntastic)
-  Syntax checking
 
   * [kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)
   Fuzzy file, buffer, mru, tag, etc finder
@@ -55,12 +49,6 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
 
   * [ervandew/supertab](https://github.com/ervandew/supertab)
   Insert mode completions with Tab
-
-  * [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-  Comment blocks of code
-
-  * [jeetsukumaran/vim-filesearch](https://github.com/jeetsukumaran/vim-filesearch)
-  Search the local filesystem for files by name or content, using glob or regular expression patterns
 
   * [matchit](http://www.vim.org/scripts/script.php?script_id=39)
   navigation++ with `%`
@@ -108,31 +96,6 @@ Install font from https://github.com/scotu/ubuntu-mono-powerline for the
   Highlighting and indenting JST/EJS syntax
 
 
-## Syntax checking with [syntastic](https://github.com/scrooloose/syntastic)
-
-### CoffeeScript and JavaScript
-
-You'll need a `coffee` and a `jslint` executable that you can get with:
-
-    $ sudo apt-get install npm
-    $ sudo npm install -g jslint
-    $ sudo npm install -g coffee-script
-
-
-### Puppet
-
-You'll need a `puppet` executable installed that you can get with:
-
-    $ sudo apt-get install puppet
-
-Or as a gem:
-
-    $ gem install puppet
-
-syntastic also provides support for [puppet-lint](https://github.com/rodjek/puppet-lint)
-if installed.
-
-
 ## Other features
 
 * Deletes trailing spaces by default when saving files
@@ -146,13 +109,10 @@ Please note that the leader key is currently mapped to `,`
 ### Plugins
 
 * `<C-p>` fire up CtrlP plugin finder
-* `<leader>C` toggle comments
 
 ### Custom
 
 * `<C-s>` save current buffer on normal or insert mode
-
-* `<F8>` toggle Tagbar
 
 * `<Space><Space>` to maximize buffer
 * `<Space>=` to restore buffer
