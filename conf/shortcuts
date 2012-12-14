@@ -14,6 +14,6 @@ noremap <Space>_ <C-w>_
 noremap <Space><Bar> <C-w><Bar>
 noremap <Space>o <C-w>o
 
-map <leader>C <plug>NERDCommenterComment
-
-nmap <F8> :TagbarToggle<CR>
+" Split windows with 'alternate' file (like a spec for a rails model)
+noremap <C-w>a <Esc><C-w>v :A<CR><Esc>
+noremap <C-w>A <Esc><C-w>s :A<CR><Esc>
