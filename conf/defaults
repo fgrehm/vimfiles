@@ -12,6 +12,12 @@ noremap k j
 noremap l k
 noremap ç l
 
+" Move between terminals using ALT + Arrows
+nnoremap <silent> <A-Right> <c-w>l
+nnoremap <silent> <A-Left> <c-w>h
+nnoremap <silent> <A-Up> <c-w>k
+nnoremap <silent> <A-Down> <c-w>j
+
 " search options
 set ignorecase smartcase gdefault showmatch hlsearch incsearch
 
