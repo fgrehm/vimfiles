@@ -17,3 +17,6 @@ noremap <Space>o <C-w>o
 " Split windows with 'alternate' file (like a spec for a rails model)
 noremap <C-w>a <Esc><C-w>v :A<CR><Esc>
 noremap <C-w>A <Esc><C-w>s :A<CR><Esc>
+
+" Yank till the end of the line with Y
+nnoremap Y y$
