@@ -2,16 +2,6 @@
 filetype plugin indent on
 let mapleader = ","
 
-" remap hjkl to jklç
-noremap <C-w>j <C-w><Left>
-noremap <C-w>k <C-w><Down>
-noremap <C-w>l <C-w><Up>
-noremap <C-w>ç <C-w><Right>
-noremap j h
-noremap k j
-noremap l k
-noremap ç l
-
 " Move between terminals using ALT + Arrows
 nnoremap <silent> <A-Right> <c-w>l
 nnoremap <silent> <A-Left> <c-w>h
