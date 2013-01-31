@@ -20,3 +20,12 @@ noremap <C-w>A <Esc><C-w>s :A<CR><Esc>
 
 " Yank till the end of the line with Y
 nnoremap Y y$
+
+"disables F1 for help
+nnoremap <F1> <nop>
+
+"disables ex mode
+nnoremap Q <nop>
+
+"disables man page for word under de cursor
+nnoremap K <nop>
