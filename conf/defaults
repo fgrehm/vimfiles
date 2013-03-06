@@ -49,7 +49,7 @@ set completeopt=menuone,preview
 set tags+=gems.tags
 
 " ignores for CtrlP
-set wildignore+=*.o,*.obj,.git,*/tmp/**,*/build/**,*/coverage/**,.jhw-cache,*/.yardoc/**
+set wildignore+=*.o,*.obj,.git,*/tmp/**,*/build/**,*/coverage/**,.jhw-cache,*/.yardoc/**,*/public/source_maps/**
 
 "set split to open in a more natural setup
 set splitbelow
