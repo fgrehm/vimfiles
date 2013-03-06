@@ -13,6 +13,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'bufexplorer.zip'
 
 Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
 
 Bundle 'tpope/vim-repeat'
 
