@@ -21,6 +21,8 @@ Bundle 'tsaleh/vim-align'
 
 Bundle 'tpope/vim-endwise'
 
+Bundle 'sickill/vim-pasta'
+
 Bundle 'tpope/vim-surround'
 Bundle 'briandoll/change-inside-surroundings.vim'
 
