@@ -19,4 +19,5 @@ augroup vimrcEx
   autocmd! BufRead,BufNewFile Guardfile setfiletype ruby
   autocmd! BufRead,BufNewFile Procfile setfiletype ruby
   autocmd! BufRead,BufNewFile *.ru setfiletype ruby
+  autocmd! BufRead,BufNewFile *.go set tabstop=4 softtabstop=4 shiftwidth=4
 augroup END
