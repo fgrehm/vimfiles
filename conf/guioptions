@@ -8,7 +8,11 @@ let g:jellybeans_overrides = {
 \                    'ctermfg': '', 'ctermbg': '000000',
 \                    'attr': '' },
 \}
-colorscheme jellybeans
+try
+  colorscheme jellybeans
+catch /^Vim\%((\a\+)\)\=:E185/
+  " Don't worry about it
+endtry
 
 set number tabstop=2 sw=2 bs=2 mouse=a
 set ruler title cursorline
