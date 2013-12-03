@@ -26,6 +26,9 @@ set noguipty
 " command-line completion shows a list of matches
 set wmnu
 
+" add marker for when changing something
+set cpo+=$
+
 "load the status line
 source ~/.vim/conf/statusline
 
