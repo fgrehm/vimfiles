@@ -1,6 +1,6 @@
 # vimfiles
 
-My vim configuration, tested on Ubuntu 12.04
+My vim configuration, tested on Ubuntu 14.04
 
 
 ## Installation
