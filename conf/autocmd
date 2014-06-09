@@ -12,12 +12,5 @@ augroup vimrcEx
   " Clear all autocmds in the group
   autocmd!
 
-  autocmd! BufRead,BufNewFile *.pp setfiletype puppet
-  autocmd! BufRead,BufNewFile *.coffee setfiletype coffee
-  autocmd! BufRead,BufNewFile *.html.erb setfiletype eruby.html
-  autocmd! BufRead,BufNewFile Gemfile setfiletype ruby
-  autocmd! BufRead,BufNewFile Guardfile setfiletype ruby
-  autocmd! BufRead,BufNewFile Procfile setfiletype ruby
-  autocmd! BufRead,BufNewFile *.ru setfiletype ruby
-  autocmd! BufRead,BufNewFile *.go set tabstop=4 softtabstop=4 shiftwidth=4
+  autocmd! BufRead,BufNewFile *.go set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 augroup END

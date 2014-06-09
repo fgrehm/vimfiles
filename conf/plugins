@@ -34,21 +34,10 @@ Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'
 
+Bundle 'sheerun/vim-polyglot'
+Bundle 'bats.vim'
 Bundle 'tpope/vim-rails'
 
 Bundle 'ecomba/vim-ruby-refactoring'
 
 Bundle 'ap/vim-css-color'
-
-Bundle 'rodjek/vim-puppet'
-Bundle 'tpope/vim-cucumber'
-Bundle 'tpope/vim-haml'
-Bundle 'lunaru/vim-less'
-Bundle 'slim-template/vim-slim'
-Bundle 'tpope/vim-markdown'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'pangloss/vim-javascript'
-Bundle 'briancollins/vim-jst'
-Bundle 'bats.vim'
-Bundle 'honza/dockerfile.vim'
-Bundle 'jnwhiteh/vim-golang'
