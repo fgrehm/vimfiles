@@ -32,7 +32,7 @@ set cpo+=$
 "load the status line
 source ~/.vim/conf/statusline
 
-set guifont=Monospace\ 11.5
+set guifont=Monospace\ 14
 let g:Powerline_symbols = 'fancy'
 
 "Set a better font depending on system
