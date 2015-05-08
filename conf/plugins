@@ -39,3 +39,7 @@ Bundle 'bats.vim'
 Bundle 'tpope/vim-rails'
 Bundle 'ap/vim-css-color'
 Bundle 'mxw/vim-jsx'
+
+Bundle 'tjennings/git-grep-vim'
+
+Bundle 'robbles/logstash.vim'
