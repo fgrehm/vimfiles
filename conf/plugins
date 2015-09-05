@@ -28,7 +28,6 @@ Bundle 'briandoll/change-inside-surroundings.vim'
 
 Bundle 'ervandew/supertab'
 
-Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 
 Bundle 'matchit.zip'

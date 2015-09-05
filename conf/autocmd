@@ -7,10 +7,3 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 au BufWrite * :call DeleteTrailingWS()
-
-augroup vimrcEx
-  " Clear all autocmds in the group
-  autocmd!
-
-  autocmd! BufRead,BufNewFile *.go set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
-augroup END
