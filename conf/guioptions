@@ -14,7 +14,7 @@ catch /^Vim\%((\a\+)\)\=:E185/
   " Don't worry about it
 endtry
 
-set number tabstop=2 sw=2 bs=2 mouse=a
+set number mouse=a
 set ruler title cursorline
 
 " set the space from the current line when scrolling

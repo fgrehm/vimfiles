@@ -3,5 +3,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+" consistent indenting options
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
