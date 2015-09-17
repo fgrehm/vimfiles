@@ -18,14 +18,17 @@ noremap <Space>o <C-w>o
 noremap <C-w>a <Esc><C-w>v :A<CR><Esc>
 noremap <C-w>A <Esc><C-w>s :A<CR><Esc>
 
+" 'unhighlight' search terms
+noremap <Leader>h <Esc>:noh<CR><Esc>
+
 " Yank till the end of the line with Y
 nnoremap Y y$
 
-"disables F1 for help
+" disables F1 for help
 nnoremap <F1> <nop>
 
-"disables ex mode
+" disables ex mode
 nnoremap Q <nop>
 
-"disables man page for word under de cursor
+" disables man page for word under the cursor
 nnoremap K <nop>
