@@ -9,7 +9,7 @@ nnoremap <silent> <A-Up> <c-w>k
 nnoremap <silent> <A-Down> <c-w>j
 
 " search options
-set ignorecase smartcase gdefault showmatch hlsearch incsearch
+set ignorecase smartcase showmatch hlsearch incsearch
 
 " enable syntax highlight
 syntax on
