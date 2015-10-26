@@ -43,3 +43,5 @@ Bundle 'tjennings/git-grep-vim'
 
 Bundle 'robbles/logstash.vim'
 Bundle 'terryma/vim-multiple-cursors'
+
+Bundle 'tpope/vim-sleuth'
