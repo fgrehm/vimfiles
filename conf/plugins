@@ -45,3 +45,4 @@ Bundle 'robbles/logstash.vim'
 Bundle 'terryma/vim-multiple-cursors'
 
 Bundle 'tpope/vim-sleuth'
+Bundle 'markcornick/vim-terraform'
