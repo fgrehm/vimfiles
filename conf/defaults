@@ -46,6 +46,9 @@ set wildignore+=*.o,*.obj,.git,*/tmp/**,/build/**,*/coverage/**,.jhw-cache,*/.ya
 set splitbelow
 set splitright
 
+" Newline at the end of the file
+set eol
+
 " TODO: Document options below
 set showfulltag
 set autoindent

@@ -8,6 +8,7 @@ func! DeleteTrailingWS()
 endfunc
 au BufWrite * :call DeleteTrailingWS()
 
+" tks to https://robots.thoughtbot.com/wrap-existing-text-at-80-characters-in-vim
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.tex setlocal textwidth=80
 au BufRead,BufNewFile *.bib setlocal textwidth=80
