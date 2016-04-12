@@ -7,3 +7,7 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 au BufWrite * :call DeleteTrailingWS()
+
+au BufRead,BufNewFile *.md setlocal textwidth=80
+au BufRead,BufNewFile *.tex setlocal textwidth=80
+au BufRead,BufNewFile *.bib setlocal textwidth=80
