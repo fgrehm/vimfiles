@@ -20,3 +20,6 @@ else
 fi
 
 vim +BundleInstall +qall
+
+set -xe
+(cd bundle/command-t/ruby/command-t && ruby extconf.rb && make)

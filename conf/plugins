@@ -9,6 +9,7 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'vim-airline/vim-airline'
 
 Bundle 'kien/ctrlp.vim'
+Bundle 'wincent/command-t'
 Bundle 'scrooloose/nerdtree'
 Bundle 'bufexplorer.zip'
 
