@@ -12,14 +12,14 @@ fi
 
 echo
 
-if ! [[ -d `pwd`/bundle/vundle/.git  ]]; then
+if ! [[ -d `pwd`/bundle/Vundle.vim/.git  ]]; then
   echo "Cloning Vundle..."
-  git clone https://github.com/gmarik/vundle.git `pwd`/bundle/vundle
+  git clone https://github.com/VundleVim/Vundle.vim.git `pwd`/bundle/Vundle.vim
 else
   echo "Skipping Vundle clone"
 fi
 
-vim +BundleInstall +qall
+vim +PluginInstall +qall
 
 set -xe
 (cd bundle/command-t/ruby/command-t && ruby extconf.rb && make)

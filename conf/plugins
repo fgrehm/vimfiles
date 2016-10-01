@@ -1,49 +1,52 @@
 " vim: filetype=vim
 
+set nocompatible
+filetype off                " required!
+
+set rtp+=~/.vim/bundle/Vundle.vim/
+
+call vundle#begin()
+
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
-Bundle 'nanotech/jellybeans.vim'
+"" Pretty colors
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'sheerun/vim-polyglot'
 
-Bundle 'vim-airline/vim-airline'
+"" File navigation
+Plugin 'scrooloose/nerdtree'
+Plugin 'wincent/command-t'
 
-Bundle 'kien/ctrlp.vim'
-Bundle 'wincent/command-t'
-Bundle 'scrooloose/nerdtree'
-Bundle 'bufexplorer.zip'
+"" Custom editing features
+Plugin 'briandoll/change-inside-surroundings.vim'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-surround'
+Plugin 'tsaleh/vim-align'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'vim-scripts/ruby-matchit'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'airblade/vim-gitgutter'
+"" Additional 'IDE functionality'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'ap/vim-css-color'
+Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
-Bundle 'tpope/vim-repeat'
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'bufexplorer.zip'
+" Plugin 'tpope/vim-repeat'
+" Plugin 'sickill/vim-pasta'
+" Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+" Plugin 'bats.vim'
+" Plugin 'tpope/vim-rails'
+" Plugin 'mxw/vim-jsx'
+" Plugin 'tjennings/git-grep-vim'
+" Plugin 'robbles/logstash.vim'
+" Plugin 'tpope/vim-sleuth'
+" Plugin 'markcornick/vim-terraform'
 
-Bundle 'tsaleh/vim-align'
-
-Bundle 'tpope/vim-endwise'
-
-Bundle 'sickill/vim-pasta'
-
-Bundle 'tpope/vim-surround'
-Bundle 'briandoll/change-inside-surroundings.vim'
-
-Bundle 'ervandew/supertab'
-
-Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-
-Bundle 'matchit.zip'
-Bundle 'ruby-matchit'
-
-Bundle 'sheerun/vim-polyglot'
-Bundle 'bats.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'ap/vim-css-color'
-Bundle 'mxw/vim-jsx'
-
-Bundle 'tjennings/git-grep-vim'
-
-Bundle 'robbles/logstash.vim'
-Bundle 'terryma/vim-multiple-cursors'
-
-Bundle 'tpope/vim-sleuth'
-Bundle 'markcornick/vim-terraform'
+call vundle#end()            " required
+filetype plugin indent on    " required
