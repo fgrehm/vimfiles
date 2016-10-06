@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 "" Pretty colors
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'posva/vim-vue'
 
 "" File navigation
 Plugin 'scrooloose/nerdtree'
