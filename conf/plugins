@@ -27,6 +27,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tsaleh/vim-align'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/ruby-matchit'
+Plugin 'tpope/vim-commentary'
 
 "" Additional 'IDE functionality'
 Plugin 'airblade/vim-gitgutter'

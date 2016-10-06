@@ -149,6 +149,9 @@ augroup vimrcEx
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
 
+  " Comment C files with // instead of /* ... */
+  autocmd FileType c,cpp setlocal commentstring=//\ %s
+
   " Remember last location in file, but not for commit messages.
   " see :help last-position-jump
   au BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
@@ -169,3 +172,5 @@ augroup vimrcEx
   " au BufLeave *.{js,coffee}     exe "normal! mJ"
   " au BufLeave *.{rb}            exe "normal! mC"
 augroup END
+
+map <silent> <C-\> <Plug>Commentary<end>
