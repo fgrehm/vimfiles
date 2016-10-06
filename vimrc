@@ -144,7 +144,7 @@ augroup vimrcEx
   au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
 
   " Remove trailing whitespace on save
-  autocmd FileType c,cpp,java,php,go,rb,js,jsx,coffee,vim,sass,css autocmd BufWritePre <buffer> %s/\s\+$//e
+  autocmd FileType c,cpp,java,php,go,ruby,make,javascript,jsx,coffee,vim,markdown,sass,css,vue autocmd BufWritePre <buffer> %s/\s\+$//e
 
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
