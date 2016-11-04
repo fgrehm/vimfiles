@@ -18,7 +18,7 @@ Plugin 'posva/vim-vue'
 
 "" File navigation
 Plugin 'scrooloose/nerdtree'
-Plugin 'wincent/command-t'
+Plugin 'kien/ctrlp.vim'
 
 "" Custom editing features
 Plugin 'briandoll/change-inside-surroundings.vim'
@@ -29,6 +29,7 @@ Plugin 'tsaleh/vim-align'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/ruby-matchit'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-rails'
 
 "" Additional 'IDE functionality'
 Plugin 'airblade/vim-gitgutter'
@@ -37,13 +38,11 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 
-" Plugin 'kien/ctrlp.vim'
 " Plugin 'bufexplorer.zip'
 " Plugin 'tpope/vim-repeat'
 " Plugin 'sickill/vim-pasta'
 " Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 " Plugin 'bats.vim'
-" Plugin 'tpope/vim-rails'
 " Plugin 'mxw/vim-jsx'
 " Plugin 'tjennings/git-grep-vim'
 " Plugin 'robbles/logstash.vim'

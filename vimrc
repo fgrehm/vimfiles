@@ -108,17 +108,14 @@ set smartcase  " ... unless they contain at least one capital letter
 " clear the search buffer when hitting return
 :nnoremap <CR> :nohlsearch<cr>
 
-" Use Ctrl+p for toggling NERDTree
-map <C-p> :NERDTreeToggle<CR>
+" Use Ctrl+t for toggling NERDTree
+map <C-t> :NERDTreeToggle<CR>
 
 " ignore files that we dont want to autocomplete
 set wildignore+=tmp/**,*.rbc,.rbx,*.scssc,*.sassc,bundle/**,vendor/bundle/**,vendor/cache/**,vendor/gems/**,node_modules/**,pkg/**
 
-" Custom mappings for Command-T
-nmap <C-t> <Plug>(CommandT)
-
-" Faster file scanning
-let g:CommandTFileScanner = "find"
+" Faster and smarter file scanning
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 
 " -----------------------------------------------------------------------------
