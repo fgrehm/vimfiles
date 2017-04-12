@@ -14,7 +14,6 @@ Plugin 'VundleVim/Vundle.vim'
 "" Pretty colors
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'posva/vim-vue'
 
 "" File navigation
 Plugin 'scrooloose/nerdtree'
@@ -47,7 +46,6 @@ Plugin 'vim-airline/vim-airline'
 " Plugin 'tjennings/git-grep-vim'
 " Plugin 'robbles/logstash.vim'
 " Plugin 'tpope/vim-sleuth'
-" Plugin 'markcornick/vim-terraform'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
