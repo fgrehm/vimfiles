@@ -49,6 +49,8 @@ syntax on         " enable syntax highlight
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
 set hidden
+" Clipboard integration with OS
+set clipboard=unnamed
 
 " Time out on key codes but not mappings.
 " Basically this makes terminal Vim work sanely.
