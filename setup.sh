@@ -19,4 +19,9 @@ else
   echo "Skipping Vundle clone"
 fi
 
-vim +PluginInstall +qall
+if [ -t 1 ] ; then
+  vim +PluginInstall +qall
+else
+  echo 'Installing vim plugins'
+  vim +PluginInstall +qall &> /dev/null
+fi
