@@ -77,6 +77,10 @@ let mapleader=","
 " set the colors when using terminal commands
 set noguipty
 
+" set mapping expand the window
+noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
+noremap <Space>= <C-w>=
+noremap <Space>_ <C-w>_
 
 " -----------------------------------------------------------------------------
 "" Whitespace
