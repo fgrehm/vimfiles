@@ -17,7 +17,7 @@ Plugin 'sheerun/vim-polyglot'
 
 "" File navigation
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 "" Custom editing features
 Plugin 'briandoll/change-inside-surroundings.vim'
