@@ -145,6 +145,7 @@ augroup vimrcEx
 
   " Make sure all markdown files have the correct filetype set and setup wrapping
   au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
+  au BufRead,BufNewFile *.gohtml set filetype=gohtmltmpl
 
   " Remove trailing whitespace on save
   autocmd FileType c,cpp,java,php,go,ruby,python,make,javascript,jsx,coffee,vim,markdown,sass,css,vue,tex,slim autocmd BufWritePre <buffer> %s/\s\+$//e
