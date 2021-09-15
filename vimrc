@@ -65,6 +65,14 @@ map <C-S> <Esc>:w<CR>
 map! <C-s> <Esc>:w<CR>a
 map! <C-S> <Esc>:w<CR>a
 
+" Set font and shortcuts to change
+set guifont=Monospace\ 14
+command! Bigger  :let &guifont = substitute(&guifont, '\d\+$', '\=submatch(0)+1', '')
+command! Smaller :let &guifont = substitute(&guifont, '\d\+$', '\=submatch(0)-1', '')
+" maps Ctrl+'=' to increase font size
+map! <C-=> <Esc>:Bigger<CR>
+map! <C--> <Esc>:Smaller<CR>
+
 " Yank till the end of the line with Y
 nnoremap Y y$
 
