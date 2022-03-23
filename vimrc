@@ -138,7 +138,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 function! s:setupWrapping()
   set wrap
   set wrapmargin=2
-  set textwidth=80
+  set textwidth=120
 endfunction
 augroup vimrcEx
   " Clear all autocmds in the group
@@ -156,7 +156,7 @@ augroup vimrcEx
   au BufRead,BufNewFile *.gohtml set filetype=gohtmltmpl
 
   " Remove trailing whitespace on save
-  autocmd FileType c,cpp,java,php,go,ruby,python,make,javascript,jsx,coffee,vim,markdown,sass,css,vue,tex,slim autocmd BufWritePre <buffer> %s/\s\+$//e
+  autocmd FileType c,cpp,java,php,go,ruby,python,make,javascript,jsx,coffee,vim,markdown,sass,css,vue,tex,slim,yaml,sh autocmd BufWritePre <buffer> %s/\s\+$//e
 
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
